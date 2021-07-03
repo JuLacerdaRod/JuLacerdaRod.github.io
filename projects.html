@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body id="page2">
+  <header>
+    <img src="images/Ju.jpg">
+  <nav>
+      <ul>
+        <li><a href="projects.html">My projects</a></li>
+        <li><a href="home.html">About me</a></li>
+      </ul>
+  </nav>
+  </header>
+    <h1>My projects</h1>
+    <div class="project">
+      <h2>She Codes Plus</h2>
+      <h3>She Codes Australia</h3>
+      <p>She Codes Plus is a program providing an alternate learning pathway within tech. Participants will undertake five unique projects over a six month period focussed on building an enterprise web application using HTML/CSS, Python, Django and React JS.</p>
+      <button type="like" class="button">Like</button>
+    </div>
+    <div class="project">
+      <h2>Get Into Tech</h2>
+      <h3>INCO Academy</h3>
+      <p>A 5-week Get Into Tech Bootcamp including web development, digital marketing, SEO and web design.</p>
+      <button type="like" class="button">Like</button>
+    </div>
+    <div class="project">
+      <h2>Undergraduate Certificate in IT</h2>
+      <h3>QUT</h3>
+      <p>The Undergraduate Certificate (Information Technology) provides you with foundational knowledge and skills related to the broad field of information technology. It serves as a taster to both areas critical to this field: Computer Science and Information Systems. Covering both practical and theoretical realms, this qualification will help you to decide further study options and design your career pathway.</p>
+      <button type="like" class="button">Like</button>
+    </div>
+    <div class="resume">
+      <p>Download my resume here</p>
+        <a href="/images/Resume" download="Juliana's Resume">
+          <i class="material-icons" alt="Resume">attachment</i>
+    </div>
+    <div class="socialmedia">
+      <a href="https://www.linkedin.com/in/juliana-lacerda-it/" class="fa fa-linkedin"></a>
+      <a href="https://github.com/JuLacerdaRod" class="fa fa-github"></a>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <p>© She Codes Brisbane 2021</p>
+      </div>
+    </footer>
+
+  <script> //Basic format: $(element).on(event-type, thing-to-be-done
+  $("button").on("click", function() {
+    alert("Clicked!");
+  });
+  </script>
+</body>
+</html>
