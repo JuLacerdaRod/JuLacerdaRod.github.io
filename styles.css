@@ -1,5 +1,9 @@
 html {
-    max-width: 100%;
+  max-width: 100%;
+}
+
+main {
+  margin: 0 25% 0px 25%;
 }
 
 body {
@@ -10,7 +14,6 @@ body {
   padding-bottom: 5%;
   height: 100%;
   max-width: 100%;
-  margin: 0px;
 }
 
 header {
@@ -212,6 +215,8 @@ i:hover {
   display: flex;
   justify-content: center;
 }
+
+/* Responsiveness  */
 
 @media (max-width: 500px) {
   h1 {
