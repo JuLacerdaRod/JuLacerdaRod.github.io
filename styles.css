@@ -228,11 +228,7 @@ i:hover {
     padding: 5px;
   }
 
-  body { 
-    background: grey;
-  }
-
   form {
-    width: 100%;
+    width: 90%;
   }
 }
